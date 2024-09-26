@@ -59,7 +59,7 @@ jobs:
       - name: Open Pull Request
         uses: devops-infra/action-pull-request@v0.5.5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN_GITHUB }}
           source_branch: develop
           target_branch: main
           title: Automatic Pull Request
